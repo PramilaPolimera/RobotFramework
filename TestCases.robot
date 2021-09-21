@@ -6,8 +6,8 @@ Library     JSONLibrary
 Library     os
 
 *** Variables ***
-${cert_path} =  C:/Pramila/Certs/client_cert.pem
-${key_path} =  C:/Pramila/Certs/Client_Private.key
+${cert_path} =  C:\Users\INPRPOL\Documents\GitHub\RobotFramework\Certs\client_cert.pem
+${key_path} =  C:\Users\INPRPOL\Documents\GitHub\RobotFramework\Certs\Client_Private.key
 ${headers} =  {'accept': 'application/json',   'x-abbtoken': '90005bd7-717f-4c93-8d4e-3a5b57794a44'}
 ${url}=   https://192.168.2.5:5001
 
