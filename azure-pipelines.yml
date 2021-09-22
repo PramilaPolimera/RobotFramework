@@ -23,7 +23,7 @@ jobs:
       versionSpec: '$(python.version)'
       architecture: 'x64'
 
-  - script: pip install robotframework robotframework-seleniumlibrary robotframework-jsonlibrary robotframework-requests  && npm install chromedriver
+  - script: pip install robotframework robotframework-seleniumlibrary robotframework-jsonlibrary robotframework-requests robotframework-httplibrary && npm install chromedriver
     displayName: 'Install dependencies'
   
   - powershell: robot --pythonpath . -x outputxunit.xml TestCases.robot
