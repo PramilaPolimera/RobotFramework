@@ -3,11 +3,12 @@ Library     Collections
 Library     Process
 Library     RequestsLibrary
 Library     JSONLibrary
-Library     os
+Library     OperatingSystem
 
 *** Variables ***
-${cert_path} =  C:/Users/INPRPOL/Documents/GitHub/RobotFramework/Certs/client_cert.pem
-${key_path} =  C:/Users/INPRPOL/Documents/GitHub/RobotFramework/Certs/Client_Private.key
+
+${cert_path} =  ${CURDIR}${/}\\Certs\\client_cert.pem
+${key_path} =  ${CURDIR}${/}\\Certs\\Client_Private.key
 ${headers} =  {'accept': 'application/json',   'x-abbtoken': '90005bd7-717f-4c93-8d4e-3a5b57794a44'}
 ${url}=   https://192.168.2.5:5001
 
