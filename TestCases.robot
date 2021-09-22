@@ -10,7 +10,7 @@ Library     OperatingSystem
 ${cert_path} =  ${CURDIR}${/}\\Certs\\client_cert.pem
 ${key_path} =  ${CURDIR}${/}\\Certs\\Client_Private.key
 ${headers} =  {'accept': 'application/json',   'x-abbtoken': '90005bd7-717f-4c93-8d4e-3a5b57794a44'}
-${url}=   https://192.168.2.5:5001/swagger/index.html
+${url}=   https://192.168.2.5:5001
 
 *** Test Cases ***
 Calling GET method
