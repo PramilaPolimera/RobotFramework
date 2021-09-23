@@ -11,7 +11,7 @@ Library     OperatingSystem
 ${cert_path} =  ${CURDIR}${/}\\Certs\\client_cert.pem
 ${key_path} =  ${CURDIR}${/}\\Certs\\Client_Private.key
 ${headers} =  {'accept': 'application/json',   'x-abbtoken': '90005bd7-717f-4c93-8d4e-3a5b57794a44'}
-${url}=   https://1442fcb43f44.elgateway.abb.local:5001
+${url}=   https://136.228.230.13:5001
 
 *** Test Cases ***
 Calling GET method
